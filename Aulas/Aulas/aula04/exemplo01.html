@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkscope</title>
+</head>
+<body onload=checkscope();>
+    <script language="javascript" type="text/javascript">
+        var myVar ="global";
+        function checkscope(){
+            var myVar ="local";
+            document.write(myVar);
+        }
+    </script>
+</body>
+</html>

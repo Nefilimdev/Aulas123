@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <form name="calculadora">
+        <!-- <div class="main-content"> -->
+
+            <output class="display" name="out"></output>
+
+            <button name="reset" onclick="click">C</button>
+            <button name="prescedencia" class="reception" value="()" onclick="">()</button>
+            <button name="porcentagem" class="reception" value="%" onclick="">%</button>
+
+            <button name="dividir" class="reception" value="/" onclick="">/</button>
+
+            <button name="sete" value="" onclick="">7</button>
+            <button name="oito" value="" onclick="">8</button>
+            <button name="nove" value="" onclick="">9</button>
+
+            <button name="mult" class="reception" value="*" onclick="">x</button>
+
+            <button name="quatro" value="4" onclick="">4</button>
+            <button name="cinco" value="5" onclick="">5</button>
+            <button name="seis" value="6" onclick="">6</button>
+
+            <button name="sub" class="reception" value="-" onclick="">-</button>
+
+            <button  value="1" onclick="calculadora.out.value += '1'">1</button>
+            <button name="dois" value="2" onclick="">2</button>
+            <button name="tres" value="3" onclick="">3</button>
+
+            <button name="adicao" class="reception" value="+" onclick="">+</button>
+
+            <button name="zero" value="0" onclick="">0</button>
+            <button name="virgula" value="," onclick="">,</button>
+            <button name="resultado" value="=" onclick="">=</button>
+        </div>
+    </form>
+</body>
+
+</html>

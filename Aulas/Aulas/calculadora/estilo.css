@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+html{
+height: 100%;
+}
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+/* Conteúdo */
+
+output {
+    display: inline-block;
+    width: 90%;
+    height: 13%;
+    text-align: right;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.main-content {
+    margin-top: 100px;
+    width: 22%;
+    height: 50%;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+[name="calculadora"]{
+    height: 100%;
+    width: 100%;
+}
+/* Botões */
+.main-content > button {
+    display: inline-block;
+    width: 22%;
+    height: 16%;
+    padding: 15px;
+    background-color: rgba(211, 211, 211, 0.);
+    border-radius: 22px;
+    border: 0.5px solid #00000029;
+    margin-top: 3px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.main-content > button:hover {
+    background-color: rgba(211, 211, 211, 0.8);
+}
+.reception{
+    color: rgb(6, 139, 6);
+    font-weight: bold;
+}
+button[name="reset"]{
+    color: red;
+    font-weight: bold;
+}
+button[name="zero"]{
+    width: 46%;
+}
+button[name="resultado"] {
+    background-color: rgb(6, 139, 6);
+    color: white;
+    font-weight: bold;
+}

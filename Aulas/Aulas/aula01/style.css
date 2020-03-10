@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div#pai {
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    margin:auto;
+
+}
+form{
+    width: 100%;
+    display: flex;
+    align-self: auto;
+    flex-direction: column;
+    background-image: url(stonks-og.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: 450px;
+}
+h1 {
+    font-family: monospace;
+    text-align: center;
+    color: deepskyblue;
+}
+.saida {
+    border: 1px solid #ECAA61;
+}
+output{
+    display: block;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+button{
+    border-radius: 6px;
+    width: 21%;
+    border: none;
+    padding: 4px;
+    margin: 4px;
+}
+button:hover{
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.centro{
+    justify-content: space-between;
+    display: flex;
+}
+
+.reset {
+    color: red;
+    align-self: flex-end;
+}
+.reset:hover{
+    background-color: red;
+    color: white;
+}
+
+.funcoes {
+    color: blue;
+}
+.funcoes:hover{
+    background: blue;
+    color: white;
+}
